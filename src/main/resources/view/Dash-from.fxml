@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="536.0" prefWidth="786.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.hqlAssignment.controller.DashFormController">
+   <children>
+      <ImageView fitHeight="536.0" fitWidth="786.0">
+         <image>
+            <Image url="@../assets/educationBackground.jpg" />
+         </image>
+      </ImageView>
+      <JFXButton fx:id="Q01Button" buttonType="RAISED" layoutX="23.0" layoutY="32.0" onAction="#onQ01Click" prefHeight="32.0" prefWidth="96.0" styleClass="addButton" stylesheets="@../css/addButton.css" text="Q.01" />
+      <JFXButton layoutX="148.0" layoutY="32.0" onAction="#q02" prefHeight="32.0" prefWidth="96.0" styleClass="addButton" stylesheets="@../css/addButton.css" text="Q.02" />
+      <JFXTextArea fx:id="textArea" layoutX="23.0" layoutY="192.0" prefHeight="325.0" prefWidth="742.0" style="-fx-background-color: #FFFFFF;" />
+      <JFXButton layoutX="280.0" layoutY="32.0" onAction="#q03" prefHeight="32.0" prefWidth="96.0" styleClass="addButton" stylesheets="@../css/addButton.css" text="Q.03" />
+      <JFXButton layoutX="408.0" layoutY="32.0" onAction="#q04" prefHeight="32.0" prefWidth="96.0" styleClass="addButton" stylesheets="@../css/addButton.css" text="Q.04" />
+      <JFXButton layoutX="532.0" layoutY="32.0" onAction="#q05" prefHeight="32.0" prefWidth="96.0" styleClass="addButton" stylesheets="@../css/addButton.css" text="Q.05" />
+      <JFXButton layoutX="663.0" layoutY="32.0" onAction="#q06" prefHeight="32.0" prefWidth="96.0" styleClass="addButton" stylesheets="@../css/addButton.css" text="Q.06" />
+      <JFXButton buttonType="RAISED" layoutX="23.0" layoutY="97.0" onAction="#q07" prefHeight="32.0" prefWidth="96.0" styleClass="addButton" stylesheets="@../css/addButton.css" text="Q.07" />
+      <JFXButton buttonType="RAISED" layoutX="148.0" layoutY="97.0" onAction="#q08" prefHeight="32.0" prefWidth="96.0" styleClass="addButton" stylesheets="@../css/addButton.css" text="Q.08" />
+      <JFXButton buttonType="RAISED" layoutX="284.0" layoutY="97.0" onAction="#q09" prefHeight="32.0" prefWidth="96.0" styleClass="addButton" stylesheets="@../css/addButton.css" text="Q.09" />
+      <JFXButton buttonType="RAISED" layoutX="408.0" layoutY="97.0" onAction="#q10" prefHeight="32.0" prefWidth="96.0" styleClass="addButton" stylesheets="@../css/addButton.css" text="Q.10" />
+   </children>
+</AnchorPane>

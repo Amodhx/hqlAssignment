@@ -1,0 +1,19 @@
+.addButton{
+    -fx-background-color: linear-gradient(rgba(5, 75, 180, 1) 0%, cornflowerblue 100%);
+    -fx-text-fill: WHite;
+    -fx-font-weight: BOLD;
+    -fx-background-radius: 8;
+    -fx-border-color: BLUE;
+    -fx-border-radius: 8;
+    -fx-border-width: 2;
+}
+
+.canselButton{
+    -fx-background-color: linear-gradient(rgba(246, 65, 65, 1) 0%, rgba(223, 166, 166, 1)100%);
+    -fx-text-fill: WHite;
+    -fx-font-weight: BOLD;
+    -fx-background-radius: 8;
+    -fx-border-color: RED;
+    -fx-border-radius: 8;
+    -fx-border-width: 2;
+}

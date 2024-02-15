@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.hqlAssignment.controller.MainformController">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="600.0">
+         <image>
+            <Image url="@../assets/janko-ferlic-sfL_QOnmy00-unsplash.jpg" />
+         </image>
+      </ImageView>
+      <TextField fx:id="usernameField" layoutX="386.0" layoutY="287.0" prefHeight="26.0" prefWidth="187.0" promptText="Enter your username" style="-fx-background-radius: 8;" />
+      <TextField fx:id="passwordField" layoutX="387.0" layoutY="324.0" prefHeight="26.0" prefWidth="187.0" promptText="Enter your password" style="-fx-background-radius: 8;" />
+      <JFXButton fx:id="loggingButton" buttonType="RAISED" layoutX="428.0" layoutY="360.0" onAction="#onLogInClick" prefHeight="7.0" prefWidth="110.0" styleClass="addButton" stylesheets="@../css/addButton.css" text="Login" />
+      <Label layoutX="446.0" layoutY="231.0" text="Log In" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="23.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
